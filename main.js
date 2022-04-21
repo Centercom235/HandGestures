@@ -49,19 +49,19 @@ else{
     toSpeak="";
     
 
-    if(prediction1=="Nice"){
-        toSpeak="this looks nice";
-        document.getElementById("update_emoji").innerHTML="&#9996;";
-
-    }
-    if(prediction1=="Thumbs Up"){
-        toSpeak="this looks awsome";
+    if(prediction1=="Amazing"){
+        toSpeak="Your food is AWESOME!";
         document.getElementById("update_emoji").innerHTML="&#128076;";
 
     }
-    if(prediction1=="Two Fingies"){
-        toSpeak="this looks wow";
-        document.getElementById("update_emoji").innerHTML="&#128077;;";
+    if(prediction1=="Best"){
+        toSpeak="Good Luck!";
+        document.getElementById("update_emoji").innerHTML="&#128077;";
+
+    }
+    if(prediction1=="Victory"){
+        toSpeak="You WON!";
+        document.getElementById("update_emoji").innerHTML="&#9996;";
 
     }
     
